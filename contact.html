@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="csscontact/main.css">
+    <title>Contactează-ne</title>
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap" rel="stylesheet">
+    <form action="/contact/send" method="POST">
+        <div class="field">
+            <label id="t-name"for="uname"><b>Numele tău</b></label><br>
+            <input id="name"type="text" placeholder="Enter your Name" name="uname" required>
+        </div>
+        <div class="field">
+            <label id="t-mail"for="mail"><b>Mail-ul tău</b></label><br>
+            <input type="email" placeholder="Enter your Email" name="psw" required>
+        </div>
+        <div id="msj"class="field">
+            <label id="t-msg"for="message"><b>Despre ce ai dori să vorbim</b></label><br>
+            <input type="text" id="msg" placeholder="Enter a message" name="message" required><br>
+        </div>
+    <button type="submit" >Trimite</button>
+    </form>
+    <img id="jd"src='images/jos_dreapta.svg'>
+    <img id="js"src='images/jos_stanga.svg'>
+    <img id="ss"src='images/sus_stanga.svg'>
+</body>
+</html>

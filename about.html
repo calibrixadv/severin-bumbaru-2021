@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despre noi
+    </title>
+    <link rel="stylesheet" href="cssabout/main.css">
+</head>
+<body>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap" rel="stylesheet">
+<img id="ds"src="/images/ds.svg">
+<img id="ss"src="/images/ss.svg">
+<img id="sj"src="/images/sj.svg">
+<img id="md"src="/images/md.svg">
+<img id="ss-1"src="/images/ss (1).svg">
+<a href="/"><img id="arrow"src="images/Sagetica_fundal.svg"></a>
+<p id="header">Despre noi</p>
+<div id="imgs">
+    <img id="ia" src="images/ia.svg">
+    <img id="da" src="images/da.svg">
+</div>
+    <div id='text'>
+        <p id="hed">
+          <b>Voi aveți întrebările noi deținem răspunsurile</b>  
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis mattis interdum in velit orci. Vitae vitae ac et in in. Imperdiet ullamcorper dignissim in semper. Neque duis tincidunt euismod nullam purus ornare mi eget dolor. Mauris fames lectus purus penatibus diam lacinia amet.
+        </p>
+    </div>
+<div class="phone-nav">
+    <a id="title">BIOSTATUS</a>
+    <button onCLick="openNav()"style="background-image:url('/images/Meniu.svg')"id="nav-menu">
+      </button>
+      <div id="white-bar"class="phone-nav-1">
+          <img id="phone-1"src="images/Bloob_1.svg"></img>
+          <img id="phone-2"src="images/Bloob_2.svg"></img>
+          <img id="phone-3"src="images/Bloob_3.svg"></img>
+          <img id="phone-4"src="images/Bloob_4.svg"></img>
+          <button type="button" onCLick="closeNav()"id="arrow-back" style="background-image:url('/images/arrow-left_1.svg')"></button>
+          <ul id="nav-list">
+              <li><a href="#scrollq1">Ce este Coronavirus?</a></li>
+
+              <li><a href="#scrollq2">Ce simptome cauzează?</a></li>
+              <li><a href="#scrollq3">Cum ne putem proteja de acesta?</a><li>
+              <li><a href="#scrollq4">Incidența România live</a></li>
+              <li><a href="#scrollq5">Despre vaccinare</a></li>
+          </ul>
+          <ul id="nav-list-2">
+              <li><a href="/about">Despre noi</a></li>
+              <li><a href="/contact">Contactează-ne</a></li>
+              <li id="copyright">C 2021 2117 Media Studio</li>
+          </ul>
+      </div>
+</div>
+<script>
+         openNav = function() {
+  var elem=document.getElementById("white-bar");
+  document.getElementById("white-bar").style.display="block"; 
+  document.getElementById("white-bar").style.right ="-100%"; 
+  var pos = -200;
+  id = setInterval(frame, 1);
+  function frame() {
+    if (pos == 0) {
+      clearInterval(id);
+    } else {
+      pos+=2;
+      elem.style.right= pos + '%';
+    }
+  }
+         }
+
+closeNav = function() {
+  var elem=document.getElementById("white-bar");
+  document.getElementById("white-bar").style.right ="0"; 
+  var pos = 0;
+  id = setInterval(frame, 1);
+  function frame() {
+    if (pos == 100) {
+      clearInterval(id);
+    } else {
+      pos+=2;
+      elem.style.right= '-'+pos + '%';
+      console.log(pos)
+    }
+  }
+}
+        document.querySelectorAll('a[href^="#scrollq1"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        closeNav();
+        if(window.location.pathname!='/')
+    {
+        window.location.pathname='';
+    }
+        setTimeout(() => {
+        window.scroll({
+  top: window.innerHeight,
+  behavior: 'smooth'
+})},4000)
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+</body>
+</html>

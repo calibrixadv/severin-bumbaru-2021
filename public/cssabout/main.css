@@ -1,0 +1,247 @@
+@media only screen and (max-width: 768px) {
+  #sj, #md, #ss-1 {
+    display: block !important;
+  }
+  #md {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    width: 30%;
+  }
+  #sj {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+  }
+  #ss-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+  }
+  #arrow {
+    display: none;
+  }
+  #ds, #ss {
+    display: none;
+  }
+  #text {
+    position: absolute;
+    top: 20% !important;
+    font-size: 1.6vh !important;
+    width: 60% !important;
+  }
+  #text #hed {
+    font-size: 2vh !important;
+    width: 100% !important;
+    margin-bottom: 0 !important;
+  }
+  #imgs {
+    width: 70% !important;
+    top: 55% !important;
+    right: 40%;
+  }
+  #imgs #ia {
+    margin-bottom: 1vh;
+  }
+  .phone-nav {
+    position: fixed !important;
+    display: inline-block !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    left: 0 !important;
+    right: 0 !important;
+    height: 5%;
+    top: 0 !important;
+    padding-bottom: 5% !important;
+    z-index: 1 !important;
+  }
+  .phone-nav a {
+    position: relative;
+    display: inline;
+    color: #1e1e1e;
+    top: 50%;
+    left: 5%;
+    width: 20%;
+    font-family: "Poppin",sans-serif;
+    font-size: 3vw;
+    font-weight: 900;
+  }
+  .phone-nav button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: inline;
+    border: none;
+    border-radius: 1vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 5vw;
+    height: 5vw;
+  }
+  .phone-nav #white-bar {
+    position: fixed;
+    display: none;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    background-color: white;
+  }
+  .phone-nav #white-bar #phone-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 66%;
+  }
+  .phone-nav #white-bar #phone-2 {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    width: 40%;
+  }
+  .phone-nav #white-bar #phone-3 {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    width: 46%;
+  }
+  .phone-nav #white-bar #phone-4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+  }
+  .phone-nav #arrow-back {
+    position: absolute;
+    top: 2%;
+    width: 10vw;
+    margin: 0;
+    height: 10vw;
+    right: 2%;
+    background-color: transparent;
+  }
+  .phone-nav #nav-list {
+    position: absolute;
+    display: inline-block;
+    top: 20%;
+    height: 100%;
+    width: 100%;
+    left: 5%;
+    text-align: left;
+  }
+  .phone-nav #nav-list li {
+    list-style: none;
+    margin-top: 2vh;
+  }
+  .phone-nav #nav-list li a {
+    text-decoration: none;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+  }
+  .phone-nav #nav-list-2 {
+    position: absolute;
+    bottom: 0;
+    max-height: 20%;
+    text-align: left;
+  }
+  .phone-nav #nav-list-2 li {
+    list-style: none;
+    margin-top: 1vh;
+  }
+  .phone-nav #nav-list-2 li a {
+    text-decoration: none;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+  }
+}
+
+#white-bar {
+  display: none;
+}
+
+.phone-nav-1 {
+  display: none;
+}
+
+#ds {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  right: 0;
+  top: 0;
+}
+
+#ss {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  left: 0;
+  top: 0;
+}
+
+#arrow {
+  position: absolute;
+  z-index: 1;
+  left: 5%;
+  top: 5%;
+}
+
+#header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 5%;
+  margin: auto;
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-weight: 700;
+  font-size: 3vw;
+  color: #1b1b1b;
+}
+
+#imgs {
+  position: absolute;
+  display: inline;
+  top: 30%;
+  width: 35%;
+  right: 10%;
+}
+
+#imgs img {
+  width: 100%;
+  height: auto;
+}
+
+#text {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  width: 40%;
+  font-family: "Poppins",sans-serif;
+  font-size: 1.5vw;
+}
+
+#text #hed {
+  font-size: 2vw;
+}
+
+#scroll-menu {
+  left: 0;
+  display: inline-block;
+  position: absolute;
+  max-width: 4vw;
+  top: 40%;
+}
+
+#sj, #md, #ss-1 {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */

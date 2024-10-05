@@ -1,0 +1,1140 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  #pg6-b {
+    width: 100% !important;
+    max-width: 200% !important;
+  }
+  #left {
+    position: absolute;
+    left: 0;
+    top: 1010%;
+    width: 50%;
+  }
+  #left #f-p1 {
+    position: relative !important;
+    top: 0 !important;
+  }
+  #left #f-p2 {
+    position: relative !important;
+  }
+  #left form {
+    display: none;
+    position: relative !important;
+    margin-top: 1vh !important;
+  }
+  #left form input {
+    position: relative !important;
+    margin: auto !important;
+    left: 0 !important;
+  }
+  #left form button {
+    position: relative !important;
+    margin: auto !important;
+  }
+  #right {
+    top: 1010% !important;
+    position: absolute !important;
+    width: 50%;
+    right: 0 !important;
+    text-align: left !important;
+  }
+  #right #f-t1 {
+    position: relative !important;
+    margin: auto !important;
+    left: 20% !important;
+  }
+  #right #f-t2 {
+    position: relative !important;
+    left: 20% !important;
+    right: 0 !important;
+    display: block;
+    width: 60% !important;
+    margin-top: 10% !important;
+  }
+  #p0-container {
+    top: 920% !important;
+    width: 90% !important;
+  }
+  #p0-p1 {
+    font-size: 3vh !important;
+  }
+  #p0-p2 {
+    font-size: 1.5vh !important;
+  }
+  #pg7-b {
+    width: 100% !important;
+  }
+  #p0-img {
+    top: 980% !important;
+    width: 40% !important;
+  }
+  #pg9-nav-other {
+    display: none;
+  }
+  #p9-container {
+    width: 70% !important;
+  }
+  #p9-container #p9-p1 {
+    font-size: 4vh;
+    width: 100% !important;
+  }
+  #p9-container #p9-p2 {
+    font-size: 2vh;
+    width: 100% !important;
+  }
+  #p9-container #pg9-b {
+    margin-top: 2vh;
+    width: 50% !important;
+  }
+  #p9-img {
+    width: 60% !important;
+    top: 880% !important;
+  }
+  #pg0-nav-other {
+    display: none;
+  }
+  #myButton {
+    font-size: 0% !important;
+  }
+  #f-links {
+    display: none;
+  }
+  #head {
+    display: none;
+  }
+  #f-t1 {
+    left: 50% !important;
+    max-width: 50% !important;
+    width: 50% !important;
+    font-size: 3vh !important;
+  }
+  #f-t2 {
+    font-size: 1.3vh !important;
+    width: 50% !important;
+    left: 50% !important;
+  }
+  #f-p1 {
+    font-size: 3vh;
+  }
+  #f-p2 {
+    font-size: 1.5vh !important;
+    max-width: 35% !important;
+  }
+  #pg8-t {
+    font-size: 4vh !important;
+    top: 740% !important;
+  }
+  #pg8-view {
+    top: 760% !important;
+    left: 1% !important;
+    width: 100% !important;
+  }
+  #pg8-view .card {
+    width: 22% !important;
+  }
+  #pg8-view .card h2 {
+    font-size: 1vh;
+  }
+  #pg8-view .card h3 {
+    font-size: 1.2vh;
+  }
+  #pg6-p1 {
+    font-size: 4vh;
+  }
+  #pg6-p2 {
+    font-size: 2vh;
+    width: 80vw;
+  }
+  #pg7-img {
+    max-width: -webkit-fit-content !important;
+    max-width: -moz-fit-content !important;
+    max-width: fit-content !important;
+    width: 40% !important;
+    top: 690% !important;
+    left: 0;
+  }
+  #pg7-container {
+    width: 70% !important;
+    right: 3% !important;
+    top: 640% !important;
+    max-width: -webkit-fit-content !important;
+    max-width: -moz-fit-content !important;
+    max-width: fit-content !important;
+  }
+  #pg7-p1 {
+    width: 60% !important;
+    max-width: -webkit-fit-content !important;
+    max-width: -moz-fit-content !important;
+    max-width: fit-content !important;
+    font-size: 4vh;
+  }
+  #pg7-p2 {
+    font-size: 2vh;
+  }
+  #pg6-b {
+    width: 100% !important;
+  }
+  #pg6-img {
+    top: 580% !important;
+    width: 40% !important;
+  }
+  #pg6-container {
+    left: 5% !important;
+    width: 65vw !important;
+    max-width: -webkit-fit-content !important;
+    max-width: -moz-fit-content !important;
+    max-width: fit-content !important;
+  }
+  #pg4-view {
+    width: 150% !important;
+    left: 10% !important;
+    right: auto !important;
+    height: 200% !important;
+  }
+  .card {
+    display: inline-block !important;
+    height: 50% !important;
+    width: 50% !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .card img {
+    height: 100% !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .card h2 {
+    font-size: 5vh;
+  }
+  .card .view-text {
+    top: 30% !important;
+  }
+  .card .rata-text {
+    bottom: 30% !important;
+  }
+  #wrapper {
+    width: 60% !important;
+    height: 40% !important;
+    left: 10% !important;
+  }
+  .scrolling-wrapper {
+    width: 100vh !important;
+  }
+  .nav-bio, .nav-about, .nav-contact, #p2-image-scroll#p3-image-scroll, #pg4-image-scroll, #pg5-image-scroll, #pg6-contact, #pg7-contact, #pg4-contact, #pg3-contact, #page2-contact, #p2-image-scroll, #p3-image-scroll, #pg2-under {
+    text-decoration: none;
+    display: none;
+  }
+  #pg4-p1 {
+    top: 400% !important;
+    font-size: 3vh;
+    max-width: -webkit-fit-content !important;
+    max-width: -moz-fit-content !important;
+    max-width: fit-content !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: auto !important;
+    text-align: center !important;
+  }
+  #scroll-menu {
+    top: 115% !important;
+    bottom: 0 !important;
+    margin: auto !important;
+    height: 10% !important;
+    width: 20vh !important;
+    max-width: 200% !important;
+  }
+  #pg3-p1 {
+    top: 320% !important;
+    font-size: 4vh !important;
+  }
+  #pg3-p2 {
+    left: 6% !important;
+    top: 335% !important;
+    font-size: 2vh !important;
+    max-width: 60% !important;
+  }
+  #pg3-img {
+    top: 340% !important;
+    width: 60% !important;
+  }
+  #page2-img {
+    top: 265% !important;
+    width: 55% !important;
+  }
+  #pg2-p1 {
+    top: 225% !important;
+    font-size: 4vh;
+    width: 80%;
+    left: 23% !important;
+  }
+  #pg2-p2 {
+    top: 240% !important;
+    font-size: 2vh !important;
+    max-width: 60% !important;
+    left: 30% !important;
+  }
+  #pg1-img {
+    top: 160% !important;
+    width: 40% !important;
+  }
+  .phone-nav-1 {
+    display: none;
+  }
+  .img-mobile-image {
+    display: block !important;
+  }
+  .desktop {
+    display: none;
+  }
+  #page1-p1 {
+    position: absolute;
+    top: 10% !important;
+    font-size: 4vh;
+  }
+  #page1-p2 {
+    position: absolute;
+    top: 30%;
+    font-size: 2vh !important;
+    max-width: 60% !important;
+  }
+  #phone-big-top {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  #bio-top {
+    color: #1e1e1e !important;
+    left: 0 !important;
+    top: 76% !important;
+    right: 0 !important;
+    margin: auto !important;
+    text-align: center;
+  }
+  .text-scroll {
+    display: none !important;
+  }
+  #scroll {
+    display: none !important;
+  }
+  .phone-nav {
+    position: fixed !important;
+    display: inline-block !important;
+    background-color: white !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    left: 0 !important;
+    right: 0 !important;
+    height: 5%;
+    top: 0 !important;
+    padding-bottom: 5% !important;
+    z-index: 1 !important;
+  }
+  .phone-nav a {
+    position: relative;
+    display: inline;
+    color: #1e1e1e;
+    top: 50%;
+    left: 5%;
+    width: 20%;
+    font-family: "Poppin",sans-serif;
+    font-size: 3vw;
+    font-weight: 900;
+  }
+  .phone-nav button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: inline;
+    border: none;
+    border-radius: 1vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 5vw;
+    height: 5vw;
+  }
+  .phone-nav #white-bar {
+    position: fixed;
+    display: none;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    background-color: white;
+  }
+  .phone-nav #white-bar #phone-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 66%;
+  }
+  .phone-nav #white-bar #phone-2 {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    width: 40%;
+  }
+  .phone-nav #white-bar #phone-3 {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    width: 46%;
+  }
+  .phone-nav #white-bar #phone-4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+  }
+  .phone-nav #arrow-back {
+    position: absolute;
+    top: 2%;
+    width: 10vw;
+    margin: 0;
+    height: 10vw;
+    right: 2%;
+    background-color: transparent;
+  }
+  .phone-nav #nav-list {
+    position: absolute;
+    display: inline-block;
+    top: 20%;
+    height: 100%;
+    width: 100%;
+    left: 5%;
+    text-align: left;
+  }
+  .phone-nav #nav-list li {
+    list-style: none;
+    margin-top: 2vh;
+  }
+  .phone-nav #nav-list li a {
+    text-decoration: none;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+  }
+  .phone-nav #nav-list-2 {
+    position: absolute;
+    bottom: 0;
+    max-height: 20%;
+    text-align: left;
+  }
+  .phone-nav #nav-list-2 li {
+    list-style: none;
+    margin-top: 1vh;
+  }
+  .phone-nav #nav-list-2 li a {
+    text-decoration: none;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+  }
+}
+
+.img-mobile-image {
+  display: none;
+}
+
+#phone-nav {
+  display: none;
+}
+
+#big-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Preserve aspet ratio */
+  width: 100%;
+  height: auto;
+}
+
+#scroll {
+  width: 2vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vh;
+}
+
+#bio-top {
+  position: absolute;
+  left: 3vw;
+  top: 15vw;
+  font-size: 8vw;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.text-scroll {
+  font-size: 2.2vh;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.scroll-interface {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 90vh;
+}
+
+.nav-bio {
+  position: absolute;
+  font-size: 2vw;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  left: 7vw;
+  text-decoration: none;
+}
+
+#nav-bio {
+  top: 100vh;
+}
+
+#nav-other {
+  top: 101.7vh;
+}
+
+.nav-other {
+  position: absolute;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1vw;
+  right: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-about {
+  margin-left: 2vw;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-contact {
+  text-decoration: none;
+  color: black;
+}
+
+.bolded {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 700;
+  font-size: 2vw;
+  text-decoration: none;
+  color: black;
+}
+
+.styled {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: black;
+}
+
+#page1-p1 {
+  position: absolute;
+  left: 7vw;
+}
+
+#page1-p2 {
+  position: relative;
+  left: 7vw;
+  padding-top: 4.5%;
+  font-size: 1.5vw;
+  max-width: 30vw;
+}
+
+.text-layout {
+  top: 130%;
+  width: 74.7vw;
+  height: 50vh;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#pg1-img {
+  position: absolute;
+  right: 0;
+  width: 30vw;
+  height: auto;
+  top: 120%;
+}
+
+#page2-bio {
+  top: 200%;
+}
+
+#p2-text-scroll {
+  position: absolute;
+  top: 194%;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+#p2-image-scroll {
+  position: absolute;
+  top: 199%;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 2vh;
+}
+
+#p2-nav-other {
+  top: 202vh;
+  right: 0;
+  font-size: 1vw;
+}
+
+#pg2-under {
+  position: absolute;
+  top: 200.2vh;
+  right: 0;
+  width: 32vw;
+}
+
+#page2-img {
+  position: absolute;
+  left: 0;
+  width: 38%;
+  height: auto;
+  top: 203%;
+}
+
+#pg2-p1 {
+  position: absolute;
+  left: 63.5%;
+  top: 225%;
+}
+
+#pg2-p2 {
+  position: absolute;
+  left: 58%;
+  text-align: right;
+  top: 232%;
+  max-width: 30%;
+}
+
+#p3-text-scroll {
+  position: absolute;
+  top: 290%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+#p3-image-scroll {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 295%;
+  width: 2vh;
+  height: auto;
+}
+
+#pg3-bio {
+  position: absolute;
+  top: 300%;
+}
+
+#pg3-nav-other {
+  right: 0;
+  position: absolute;
+  top: 301%;
+}
+
+#pg3-img {
+  right: 0;
+  top: 305%;
+  width: 35vw;
+  height: auto;
+  position: absolute;
+}
+
+#pg3-p1 {
+  position: absolute;
+  top: 320%;
+  left: 5%;
+}
+
+#pg3-p2 {
+  position: absolute;
+  top: 327%;
+  left: 6%;
+  max-width: 31.5%;
+}
+
+#pg4-text-scroll {
+  position: absolute;
+  top: 394%;
+  text-align: center;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+#pg4-image-scroll {
+  position: absolute;
+  top: 399%;
+  width: 2vh;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+#pg4-bio {
+  position: absolute;
+  top: 400%;
+}
+
+#pg4-nav-other {
+  position: absolute;
+  top: 402%;
+}
+
+#pg4-p1 {
+  top: 440%;
+  max-width: 30%;
+  left: 10%;
+  position: absolute;
+}
+
+#pg5-text-scroll {
+  position: absolute;
+  top: 495%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+#pg5-image-scroll {
+  position: absolute;
+  top: 499%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 2vh;
+}
+
+.scrolling-wrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.scrolling-wrapper .card {
+  text-align: center;
+  display: inline-block;
+  margin-left: 1vw;
+  width: 20vw;
+  border: none !important;
+}
+
+.img {
+  width: 20vw;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+.card:hover {
+  display: inline-block;
+  width: 23vw;
+  height: auto;
+}
+
+.card:hover .view-text {
+  font-size: 3.5vw;
+}
+
+.card:hover .rata-text {
+  font-size: 2.5vw;
+}
+
+.card:hover .img {
+  width: 23vw;
+  position: relative;
+  height: auto;
+}
+
+.view-text {
+  top: 10%;
+  position: absolute;
+  font-size: 3vw;
+  width: 100%;
+  font-family: "Poppins",sans-serif;
+  color: white;
+  font-weight: 700;
+  -webkit-transition: font-size 1s;
+  transition: font-size 1s;
+}
+
+.rata-text {
+  bottom: 5%;
+  -webkit-transition: font-size 1s;
+  transition: font-size 1s;
+  position: absolute;
+  font-size: 2vw;
+  width: 100%;
+  font-family: "Poppins",sans-serif;
+  color: white;
+  font-weight: 500;
+}
+
+.wrapp {
+  position: absolute;
+  top: 430%;
+  right: 0;
+  max-width: 60%;
+}
+
+#scroll-menu {
+  left: 0;
+  display: inline-block;
+  position: absolute;
+  max-width: 4vw;
+  top: 40%;
+}
+
+#search-bar {
+  top: 420%;
+  left: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  position: absolute;
+}
+
+#pg6-bio {
+  top: 500%;
+}
+
+#pg6-nav-other {
+  top: 500%;
+}
+
+#pg6-container {
+  display: block;
+  position: absolute;
+  max-width: 50%;
+  width: 40%;
+  height: auto;
+  top: 510%;
+  left: 20%;
+}
+
+#pg6-p1 {
+  max-width: 30%;
+}
+
+#pg6-button {
+  position: absolute;
+  top: 110%;
+  width: 40%;
+  height: auto;
+  left: 0;
+}
+
+#pg6-b {
+  width: 80%;
+  height: auto;
+}
+
+#pg6-img {
+  right: 0;
+  position: absolute;
+  width: 30%;
+  height: auto;
+  top: 520%;
+}
+
+#pg7-bio {
+  top: 700%;
+}
+
+#pg7-nav-other {
+  top: 700%;
+}
+
+#pg7-container {
+  display: block;
+  position: absolute;
+  max-width: 40%;
+  width: 40%;
+  text-align: right;
+  height: auto;
+  top: 610%;
+  right: 20%;
+}
+
+#pg7-p1 {
+  max-width: 30%;
+}
+
+#pg7-button {
+  position: absolute;
+  top: 110%;
+  width: 40%;
+  height: auto;
+  right: 0;
+}
+
+#pg7-b {
+  width: 80%;
+  height: auto;
+}
+
+#pg7-img {
+  left: 0;
+  position: absolute;
+  width: 30%;
+  height: auto;
+  top: 620%;
+}
+
+#pg8-view {
+  position: absolute;
+  top: 740%;
+  right: 7%;
+  overflow: hidden;
+}
+
+.view-text-2 {
+  font-size: 1.5vw;
+  top: 10%;
+  position: absolute;
+  width: 100%;
+  font-family: "Poppins",sans-serif;
+  color: white;
+  font-weight: 700;
+}
+
+#pg8-t {
+  text-align: center;
+  right: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  top: 720%;
+}
+
+.view-text-3 {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  font-family: "Poppins",sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 1.3vw;
+}
+
+#exampleFormControlInput1 {
+  top: 1023%;
+  max-width: 20%;
+  position: absolute;
+  width: 30%;
+  left: 4%;
+}
+
+#f-p1 {
+  left: 4%;
+  top: 1010%;
+  position: absolute;
+}
+
+#f-p2 {
+  left: 4%;
+  top: 1016%;
+  position: absolute;
+  max-width: 22vw;
+  font-size: 0.8vw;
+}
+
+.btn.btn-primary {
+  background-color: #7485BD;
+  border: none;
+}
+
+.btn.btn-primary:hover {
+  background-color: #4b6bd4;
+}
+
+#myButton {
+  top: 1023%;
+  position: absolute;
+  left: 25%;
+  text-align: center;
+  font-size: 0.7vw;
+  width: 7%;
+  font-family: "Poppins",sans-serif;
+  font-weight: 700;
+  height: 4%;
+}
+
+#f-t1 {
+  top: 1010%;
+  position: absolute;
+  left: 40%;
+  width: 40%;
+  height: auto;
+  font-size: 2vw;
+  text-align: left;
+}
+
+#f-t2 {
+  top: 1015%;
+  position: absolute;
+  left: 40%;
+  width: 35%;
+  height: auto;
+  font-size: 1vw;
+  text-align: left;
+}
+
+#blob {
+  top: 1010%;
+  position: absolute;
+  right: 0;
+  width: 20%;
+  height: auto;
+}
+
+#f-links {
+  top: 1020%;
+  right: 0;
+  position: absolute;
+  max-width: 100%;
+  width: 20%;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  font-family: "Poppins",sans-serif;
+  color: white;
+}
+
+#f-links li {
+  display: block;
+  margin-bottom: 1vw;
+}
+
+#trademark {
+  top: 1050%;
+  left: 0;
+  position: absolute;
+  font-family: "Poppins",sans-serif;
+  font-weight: 900;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+#head {
+  position: absolute;
+  font-size: 2vw;
+  font-weight: 700;
+  right: 5%;
+  color: white;
+  top: 1010%;
+}
+
+.phone-nav {
+  display: none;
+}
+
+@-webkit-keyframes slide {
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes slide {
+  100% {
+    right: 0;
+  }
+}
+
+#pg9-bio {
+  position: absolute;
+  top: 800%;
+}
+
+#pg9-nav-other {
+  position: absolute;
+  top: 801%;
+}
+
+#p9-container {
+  position: absolute;
+  top: 820%;
+  width: 40%;
+  height: 50%;
+  left: 10%;
+}
+
+#p9-b {
+  width: 30%;
+}
+
+#p9-img {
+  position: absolute;
+  width: 30%;
+  height: auto;
+  right: 0;
+  top: 800%;
+}
+
+#pg0-bio {
+  position: absolute;
+  top: 900%;
+}
+
+#pg0-nav-other {
+  position: absolute;
+  top: 901%;
+}
+
+#p0-container {
+  position: absolute;
+  top: 910%;
+  width: 50%;
+  height: 50%;
+  left: 10%;
+}
+
+#p0-img {
+  width: 30%;
+  height: auto;
+  position: absolute;
+  right: 0;
+  top: 920%;
+}
+
+#page2-contact, #pg3-contact, #pg4-contact, #pg6-contact, #pg7-contact, #pg9-contact {
+  color: #1e1e1e;
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
